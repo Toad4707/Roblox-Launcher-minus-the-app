@@ -6,7 +6,7 @@ from os.path import exists
 from urllib.request import urlopen, urlretrieve
 from json import load
 
-repo = "lolmanurfunny/Roblox-Launcher-minus-the-app"
+repo = "Toad4707/Roblox-Launcher-minus-the-app"
 
 version = load(urlopen("https://clientsettingscdn.roblox.com/v2/client-version/WindowsPlayer/channel/zflag"))["clientVersionUpload"]
 
